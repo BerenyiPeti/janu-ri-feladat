@@ -1,0 +1,86 @@
+main{
+    margin: auto;
+    display: grid;
+    grid-template-areas: "he he he "
+                         "ar ar ar "
+                         "na na na "                        
+                         "fo fo fo ";
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 1000px;
+    padding: 10px;
+    background: white fixed;
+    border: 5px solid rgba(117, 9, 9, 0.897);
+    
+}
+
+header{
+    grid-area: he;
+}
+
+nav{
+    grid-area: na;
+    
+}
+
+article{
+    grid-area: ar;
+}
+
+footer{
+    grid-area: fo;
+}
+
+
+
+.navtarolo{
+    padding-left: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.linktarolo {
+    position: relative;
+    width: 50%;
+}
+  
+.kep {
+    width: 100%;
+    height: auto;
+}
+  
+.reteg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255);
+}
+  
+.linktarolo:hover .reteg {
+    opacity: 1;
+}
+  
+.szoveg {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .navtarolo{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}

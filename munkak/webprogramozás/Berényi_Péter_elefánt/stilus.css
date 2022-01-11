@@ -1,0 +1,45 @@
+@charset "utf-8";
+h1{
+	font-size:20px;
+	font-family:Showcard Gothic;
+	
+}
+h2{
+	font-family:Showcard Gothic;
+	padding-top:10px;
+}
+body{
+	font-family:Verdana;
+	font-size:10px;
+	color:#272f32;
+	background:#272f32 url("kepek/hatterem3.jpg");
+}
+.fotarolo{
+	background:white;
+	margin:auto;
+	width:600px;
+	padding:10px;
+}
+img{
+	border:gray 1px solid;
+	width:200px;
+	padding:3px;
+}
+.jobb{
+	float:right;
+	margin-left:10px;
+}
+.bal{
+	float:left;
+	margin-right:10px;
+}
+h2, .torol{
+	clear:both;
+}
+p{
+	text-align:justify;
+}
+
+
+
+	

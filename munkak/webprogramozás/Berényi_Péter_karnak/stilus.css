@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+h1{
+	text-align:center;
+	letter-spacing:5px;	
+	font-family:"roboto","sans-serif";
+}
+h2{
+	text-align:center;
+	letter-spacing:3px;
+	border-top:rgb(161,44,30) 1px solid;
+	border-bottom:rgb(161,44,30) 1px solid;
+	padding:10px;
+}
+
+p{
+	font-size:12px;
+}
+
+body{
+	color:rgb(161,44,30);
+	background:url("kepek/egyiptomihatter.jpg");
+	font-family:"Arial";
+}
+
+.fotarolo{
+	background:rgb(220,188,105);
+	margin:auto;
+	width:500px;
+	padding:10px;
+}
+
+#kep1{
+	width:300px;
+	float:right;
+	margin-left:5px;
+}
+
+#kep2{
+	width:270px;
+	float:left;
+	margin-right:5px;
+}
+
+.kepek{
+	padding:5px;
+	border:rgb(161,44,30) 1px dashed;
+	margin-bottom:15px;
+}
+
+p{
+	text-align:justify;
+}
+
+a{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border:2px gray solid;
+	background-color:lightgray;
+	text-decoration:none;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+a:link{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+a:hover{
+	color:red;
+	background-color:yellow;
+}
+
+a:active{
+	color:blue;
+	background-color:white;
+}
+
+#menu{
+	padding:20px;
+}
+
+#link1{
+	float:left;
+}
+
+#link2{
+	float:right;
+}
+

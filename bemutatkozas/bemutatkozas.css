@@ -1,0 +1,37 @@
+main{
+    margin: auto;
+    display: grid;
+    grid-template-areas: "he he he "
+                         "na na na "  
+                         "ar ar ar "                      
+                         "fo fo fo ";
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 1000px;
+}
+
+header{
+    grid-area: he;
+}
+
+nav{
+    grid-area: na;
+    
+}
+
+article{
+    grid-area: ar;
+}
+
+footer{
+    grid-area: fo;
+}
+
+img{
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+}
+
+article p{
+    margin: 0px;
+}

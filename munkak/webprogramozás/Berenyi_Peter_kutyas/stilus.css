@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Mono:wght@400&display=swap');
+
+
+
+main{
+    display:grid;
+    grid-template-areas: "h h h h "
+                         "n a a a "
+                         "f f f f ";
+    max-width: 800px;
+    margin:auto;
+	font-family: calibri;
+	text-align:justify;
+	
+}
+
+.nagybetu{
+	text-transform: uppercase;
+}
+
+header{
+    grid-area:h;
+    background:url("design/fejlec.jpg");
+	background-size: 800px;
+	
+   
+    
+}
+
+header h1{
+    color:white;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    margin: 10px;
+	font-family: "Architects Daughter";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+nav{
+    grid-area: n;
+    background: rgb(141,199,63);
+    
+}
+
+article{
+    grid-area: a;
+	padding: 15px;
+}
+
+article h1{
+	font-family: "Roboto Mono";
+	letter-spacing: 2px;
+}
+
+footer{
+    grid-area:f;
+    background: rgb(0,100,1);
+}
+
+footer p{
+    color:white;
+	text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-right:60px;
+    padding-left:10px;
+    margin:5px;
+	font-weight: bold;
+	font-size: 20px;
+    
+}
+
+nav li{
+	padding: 5px;
+	font-family: "calibri";
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+	color: red;
+}
+
+
+
+#sima{
+    color:red;
+}
+
+#meretei{
+    color:green;
+}
+
+.leiras h2, .leiras p{
+	padding-left: 25px;
+}
+
+.bekezdesek{
+	border-top: 3px dotted black;
+}
+
+@media screen and (max-width:600px) {
+	main{
+   
+    grid-template-areas: "h "
+                         "n"
+						 "a"
+                         "f ";
+}
+
+nav ul{
+	text-align: center;
+}
+
+header h1{
+    color:white;
+	font-family: "Architects Daughter";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+
+}

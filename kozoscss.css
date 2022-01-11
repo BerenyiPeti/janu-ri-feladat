@@ -1,0 +1,74 @@
+main{
+    margin: auto;
+    display: grid;
+    grid-template-areas: "ar ar ar "
+                         "fo fo fo ";
+    max-width: 1000px;
+    padding: 10px;
+    background: white fixed;
+    border: 5px solid rgba(117, 9, 9);
+}
+
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+header{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.linkek a{
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+body{
+    background: url("kepek/hatter.jpg") fixed, url("kepek/hatter.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.gombok{
+    background-color: rgba(117, 9, 9); 
+    border: 3px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;;
+    text-transform: uppercase;
+}
+
+.gombok:hover{
+    background-color: burlywood;
+}
+
+nav{
+    margin-bottom: 15px;
+    padding-bottom: 100px;
+}
